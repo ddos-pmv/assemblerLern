@@ -3,6 +3,9 @@ global _start
 section .bss
  array resb 16
 
+section .data
+	number db 22; define byte, w-word(2 bytes), d-doubleWord(2 bytes) etc.
+
 section .text
 _start: 
  mov eax,0
